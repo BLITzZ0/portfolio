@@ -1,8 +1,7 @@
 import React, { useState, useEffect,useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './App.css';
-
-
+import image from './assets/DSC_0196.JPG';
 
 
 const App = () => {
@@ -155,7 +154,7 @@ const sendEmail = (e) => {
             <div className="hero-image">
               <div className="image-wrapper">
                 <img 
-                  src='src/assets/DSC_0196.JPG' 
+                  src={image} 
                   alt="Abhishek Kumar Pandey" 
                 />
               </div>
