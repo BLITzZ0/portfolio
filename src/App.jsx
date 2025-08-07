@@ -2,7 +2,7 @@ import React, { useState, useEffect,useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './App.css';
 import image from './assets/image.png';
-
+import resume from './assets/Abhishek_Kr_Pandey_Resume_August.pdf'
 
 const App = () => {
   const [theme, setTheme] = useState('dark');
@@ -142,7 +142,7 @@ const sendEmail = (e) => {
               <div className="hero-cta">
                 <a href="#contact" className="btn primary">Get in Touch</a>
                 <a 
-                  href="https://drive.google.com/uc?export=view&id=1UN8Arh5Qr3VBJBYPbXchbuRJBoR6uU-b" 
+                  src = {resume} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="btn secondary"
