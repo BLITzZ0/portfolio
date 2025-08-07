@@ -155,7 +155,7 @@ const sendEmail = (e) => {
             <div className="hero-image">
               <div className="image-wrapper">
                 <img 
-                  src='https://drive.google.com/uc?export=view&id=12lsgKvr_jLBtFECWwL8NruNliOYKC7LG' 
+                  src='src/assets/DSC_0196.JPG' 
                   alt="Abhishek Kumar Pandey" 
                 />
               </div>
