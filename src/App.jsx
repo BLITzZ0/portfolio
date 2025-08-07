@@ -1,7 +1,7 @@
 import React, { useState, useEffect,useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './App.css';
-import image from './assets/DSC_0196.JPG';
+import image from './assets/image.png';
 
 
 const App = () => {
