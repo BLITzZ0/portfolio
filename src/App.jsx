@@ -2,7 +2,7 @@ import React, { useState, useEffect,useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './App.css';
 import image from './assets/image.png';
-import resume from 'public/resume/Abhishek_Kr_Pandey_Resume_August.pdf'
+import resume from "/resume/Abhishek_Kr_Pandey_Resume_August.pdf"
 
 const App = () => {
   const [theme, setTheme] = useState('dark');
