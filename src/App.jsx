@@ -155,7 +155,7 @@ const sendEmail = (e) => {
             <div className="hero-image">
               <div className="image-wrapper">
                 <img 
-                  src="src\assets\DSC_0196.JPG" 
+                  src='https://drive.google.com/uc?export=view&id=12lsgKvr_jLBtFECWwL8NruNliOYKC7LG' 
                   alt="Abhishek Kumar Pandey" 
                 />
               </div>
@@ -360,7 +360,7 @@ const sendEmail = (e) => {
               <div className="contact-details">
                 <div className="contact-item">
                   <i className="icon">✉️</i>
-                  <span>abahhshek3005@gmail.com</span>
+                  <span>ababhishek3005@gmail.com</span>
                 </div>
                 <div className="contact-item">
                   <i className="icon">👤</i>
@@ -386,17 +386,17 @@ const sendEmail = (e) => {
             </div>
             <div className="contact-form">
               <form ref={form} onSubmit={sendEmail}>
-      <div className="form-group">
-        <input type="text" name="user_name" placeholder="Your Name" required />
-      </div>
-      <div className="form-group">
-        <input type="email" name="user_email" placeholder="Your Email" required />
-      </div>
-      <div className="form-group">
-        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      </div>
-      <button type="submit" className="btn primary">Send Message</button>
-    </form>
+                <div className="form-group">
+                  <input type="text" name="user_name" placeholder="Your Name" required />
+                </div>
+                <div className="form-group">
+                  <input type="email" name="user_email" placeholder="Your Email" required />
+                </div>
+                <div className="form-group">
+                  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" className="btn primary">Send Message</button>
+            </form>
             </div>
           </div>
         </div>
