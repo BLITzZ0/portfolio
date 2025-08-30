@@ -217,7 +217,7 @@ const sendEmail = (e) => {
                 <span>JavaScript</span>
                 <span>HTML</span>
                 <span>Python</span>
-                <span>SQL</span>
+                {/* {<span>SQL</span>} */}
               </div>
             </div>
             
